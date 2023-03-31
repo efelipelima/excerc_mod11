@@ -113,34 +113,28 @@ h1 {
     color: #fff;
 }
 
+img{
+    border-radius: 20px;
+}
 
-
-#about-img{
-    
-    max-width: 400px;
-    min-width: 150px;
-    max-height: 300px;
+.about-img{
     display: flex;
-    justify-content: center;
     place-content: center;
 }
 
 
-.section #about-img{
-    
-    max-width: 400px;
-    min-width: 150px;
-    max-height: 300px;
-    display: flex
+#btn-cart{
+    margin-top: 10px;
+    padding: 7px;
+    background-color: green;
+    border-radius: 20px;
 }
+
 
 .about{
     color: #fff;
     max-width: 100%;
     min-width: 200px;
-
-    justify-content: center;
-    align-items: center;
 
 
 
@@ -198,6 +192,7 @@ h1 {
         "item"
         "item";
     }
+
 
         .item{         
             margin: 10px 10px;
